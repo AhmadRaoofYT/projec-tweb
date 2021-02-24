@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>LOGIN</title>
+</head>
+<body id="login">    
+    <center> <h1>Login</h1> </center>   
+    <form name="form1" action="index-loged-in.html" onsubmit="hello()">  
+        <div class="container">   
+            <label>Username : </label>   
+            <input name="text1" type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input name="text2" type="password" placeholder="Enter Password" name="password" required>  
+            <button onclick="required()" type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button onclick="clik()" type="button" class="cancelbtn"> Cancel</button>   
+            <a href="pages/forgot-pass.html">Forgot  password? </a>   
+        </div>   
+    </form>  
+    <script src="scripts/script.js"></script>   
+</body>     
+</html>
